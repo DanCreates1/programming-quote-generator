@@ -1,8 +1,10 @@
 
 body {
+    background-color: black;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
+    color: white;
 }
 #quote {
     font-size: 24px;
@@ -12,9 +14,18 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
+    background:
+    linear-gradient(currentColor 0 0) bottom 0   left 50% /var(--a, 0) 3px no-repeat,
+    linear-gradient(currentColor 0 0) bottom 6px left 50% /var(--b, 0) 3px no-repeat;
+  transition:0.5s;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    animation: ease-in-out 0.6s;
+    --a: 60%;
+    --b: 100%;
 }
 
-#fBox{}
 
 #bgJs {
     position: absolute;
