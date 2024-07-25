@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+#quote {
+    font-size: 24px;
+    margin: 20px 0;
+}
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#fBox{}
+
+#bgJs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
