@@ -205,14 +205,10 @@ const quotes = [
     "Programs must be written for people to read, and only incidentally for machines to execute. - Harold Abelson"
   ];
 
-  
   function generateQuote() {
-    // Generate a random number between 0 and the number of quotes
     const randomIndex = Math.floor(Math.random() * quotes.length);
     
-    // Get the quote at the random index
     const randomQuote = quotes[randomIndex];
     
-    // Display the quote on the page
     document.getElementById('quote').innerText = randomQuote;
 }
